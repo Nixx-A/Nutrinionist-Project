@@ -4,7 +4,7 @@ export function DietasEspeciales() {
   return (
     <section className='bg-[#88d8cc] pt-8'>
       <div className='inline-flex justify-center w-full'>
-        <img className='w-12' src='public/health.png' />
+        <img className='w-12' src='/health.png' />
         <p className='ml-12 text-2xl'>Dietas Especiales</p>
       </div>
       <div className='images-grid'>

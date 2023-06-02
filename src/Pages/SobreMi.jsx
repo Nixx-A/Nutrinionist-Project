@@ -5,8 +5,8 @@ export function SobreMi() {
       <div className='bg-[#f88] absolute top-6 lg:h-4/6  md:relative md:flex md:flex-col md:justify-center md:items-center h-max w-5/6 m-6 p-4 shadow-xl '>
         <img
           className=' w-32 h-32 mx-auto rounded-full object-cover'
-          src='/public/flor.jpg'
-          alt=''
+          src='/flor.jpg'
+          alt='Flor foto'
         />
         <p className='p-2 mx-2'>
           ¡Bienvenidos al mundo de la nutrición clínica! Me complace darte la

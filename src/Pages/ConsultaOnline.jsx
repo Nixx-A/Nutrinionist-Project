@@ -74,25 +74,25 @@ export function ConsultaOnline() {
             className=' mt-10 flex w-screen
          md:justify-between items-center flex-row justify-center  max-w-[400px] flex-wrap'>
             <div className=' m-10 w-20 h-32'>
-              <img className='w-16 h-16 mb-2' src='/public/like.png' alt='' />
+              <img className='w-16 h-16 mb-2' src='/like.png' alt='' />
               <p className=' text-md'>Consultas personalizadas y flexibles</p>
             </div>
             <div className=' m-10 w-20 h-32'>
               <img
                 className='w-16 h-16 mb-2'
-                src='/public/schedule.png'
+                src='/schedule.png'
                 alt=''
               />
               <p className='text-md'>Respuesta en 24h</p>
             </div>
             <div className=' m-10 w-20 h-32'>
-              <img className='w-16 h-16 mb-2' src='/public/essay.png' alt='' />
+              <img className='w-16 h-16 mb-2' src='/essay.png' alt='' />
               <p className='text-md'>Seguimiento de objetivos y evolución</p>
             </div>
             <div className=' m-10 w-20 h-32'>
               <img
                 className='w-16 h-16 mb-2'
-                src='/public/worldwide.png'
+                src='/worldwide.png'
                 alt=''
               />
               <p className='text-md'>Rápido y cómodo, a través de Internet</p>

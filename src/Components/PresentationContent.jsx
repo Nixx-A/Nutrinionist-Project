@@ -70,7 +70,7 @@ export function PresentationContent() {
           </Link>
           <Link
             to={'/consulta-online'}
-            className='bg-white hover:bg-slate-300 duration-300 text-[#f66] p-2 rounded-sm duration-300 '>
+            className='bg-white hover:bg-slate-300  text-[#f66] p-2 rounded-sm duration-300 '>
             Consulta Online
           </Link>
         </div>

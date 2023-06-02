@@ -7,7 +7,7 @@ export function Footer() {
         <h2 className='font-semibold text-xl spacing duration-500 text-center'>
           Florencia Ayan
         </h2>
-        <img className='w-8' src='/public/logo2.png' alt='food img' />
+        <img className='w-8' src='/logo2.png' alt='food img' />
       </div>
       <p className='text-center'>@2023</p>
     </footer>
