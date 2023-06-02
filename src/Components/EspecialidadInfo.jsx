@@ -7,7 +7,7 @@ import {
 
 export function EspecialidadInfo() {
   return (
-    <section className='bg-[#fafafa] flex justify-center pt-16  items-center flex-col lg:flex-row  pb-16 border-gray-300 border-b-2'>
+    <section className='bg-[#fafafa] :bg-slate-900 :text-white flex justify-center pt-16  items-center flex-col lg:flex-row  pb-16 border-gray-300 border-b-2'>
       <article className='w-4/6 '>
         <h2 className='text-center text-xl font-semibold'>
           ¿Que es un nutricionista clinico?

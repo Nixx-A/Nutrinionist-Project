@@ -7,6 +7,7 @@ import { Home } from './Pages/Home.jsx'
 import { SobreMi } from './Pages/SobreMi'
 import { Contacto } from './Pages/Contacto'
 import { ConsultaOnline } from './Pages/ConsultaOnline'
+import { App } from './App'
 
 const router = createBrowserRouter([
   {
@@ -34,5 +35,7 @@ const router = createBrowserRouter([
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router}></RouterProvider>
+  <RouterProvider router={router}>
+    <App />
+  </RouterProvider>
 )

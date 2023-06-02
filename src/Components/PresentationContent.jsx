@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export function PresentationContent() {
   return (
-    <section className='bg-[#f66] text-center h-96 text-white items-center justify-center py-16 flex flex-col md:flex-row'>
+    <section className='bg-[#f66] :bg-slate-900 text-center h-96 text-white items-center justify-center py-16 flex flex-col md:flex-row'>
       <div className='hidden lg:flex lg:justify-center lg:flex-col lg:items-center  mr-32'>
         <img
           className='w-36 h-36 rounded-full object-cover '
@@ -13,17 +13,17 @@ export function PresentationContent() {
         />
         <div className='flex flex-row mt-1'>
           <a href=''>
-            <AiFillFacebook className='bg-[#f44] hover:bg-[#f22] duration-300 text-white rounded-full w-8 h-8 p-1.5  mr-3' />
+            <AiFillFacebook className='bg-[#f44] :text-black :bg-[#fafafa] :hover:bg-gray-400 hover:bg-[#f22] duration-300 text-white rounded-full w-8 h-8 p-1.5  mr-3' />
           </a>
           <a
             className=''
             href='https://www.instagram.com/flor_ayan/'
             target='_blank'
             rel='noreferrer'>
-            <AiFillInstagram className='bg-[#f44]   hover:bg-[#f22] duration-300 text-white rounded-full w-8 h-8 p-1.5 mr-3' />
+            <AiFillInstagram className='bg-[#f44] :text-black :bg-[#fafafa] :hover:bg-gray-400  hover:bg-[#f22] duration-300 text-white rounded-full w-8 h-8 p-1.5 mr-3' />
           </a>
           <a href=''>
-            <BsTwitter className='bg-[#f44]  hover:bg-[#f22] duration-300 text-white rounded-full w-8 h-8 p-1.5' />
+            <BsTwitter className='bg-[#f44] :text-black :bg-[#fafafa] :hover:bg-gray-400  hover:bg-[#f22] duration-300 text-white rounded-full w-8 h-8 p-1.5' />
           </a>
         </div>
         <Link to={'/sobre-mi'} className='mt-2 underline underline-offset-2'>
@@ -45,7 +45,7 @@ export function PresentationContent() {
           />
           <div className='flex flex-row mt-1'>
             <a href=''>
-              <AiFillFacebook className='bg-[#f44] hover:bg-[#f22] duration-300 text-white rounded-full w-8 h-8 p-1.5  mr-3' />
+              <AiFillFacebook className='bg-[#f44]  hover:bg-[#f22] duration-300 text-white rounded-full w-8 h-8 p-1.5  mr-3' />
             </a>
             <a
               className=''
@@ -58,7 +58,7 @@ export function PresentationContent() {
               <BsTwitter className='bg-[#f44]  hover:bg-[#f22] duration-300 text-white rounded-full w-8 h-8 p-1.5' />
             </a>
           </div>
-          <Link to={'/servicios'} className='mt-2 underline'>
+          <Link to={'/sobre-mi'} className='mt-2 underline'>
             Sobre Mi
           </Link>
         </div>

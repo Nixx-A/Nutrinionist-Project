@@ -1,7 +1,7 @@
 import './SobreMi.css'
 export function SobreMi() {
   return (
-    <section className='bg-[#f6f6f6] text-black w-screen  items-center flex justify-center h-screen flex-col '>
+    <section className='bg-[#f6f6f6]  text-black w-screen  items-center flex justify-center h-screen flex-col '>
       <div className='bg-[#f88] absolute top-6 lg:h-4/6  md:relative md:flex md:flex-col md:justify-center md:items-center h-max w-5/6 m-6 p-4 shadow-xl '>
         <img
           className=' w-32 h-32 mx-auto rounded-full object-cover'
@@ -14,11 +14,11 @@ export function SobreMi() {
           especializada en clínica. Estoy aquí para ayudarte a alcanzar tus
           objetivos de salud y bienestar a través de una alimentación adecuada y
           personalizada. Como nutricionista clínica, he dedicado años de estudio
-          y experiencia a comprender cómo la nutrición impacta nuestra salud.
+          y experiencia a comprender cómo la nutrición impacta nuestra salud.{' '}
           <strong>
             Mi objetivo principal es proporcionarte las herramientas y el
             conocimiento necesarios para que puedas tomar decisiones informadas
-          </strong>
+          </strong> {' '}
           sobre tu alimentación y lograr un estilo de vida saludable. Entiendo
           que cada persona es única, por lo que mi enfoque se basa en diseñar
           planes nutricionales adaptados a tus necesidades individuales. Trabajo
