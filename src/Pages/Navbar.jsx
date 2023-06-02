@@ -21,7 +21,7 @@ export const Navbar = () => {
         <Link
           to={'/'}
           className='flex flex-row justify-center items-center cursor-pointer z-50'>
-          <img className='w-8' src='/public/logo.png' />
+          <img className='w-8' src='/logo.png' />
           <span className='logo-font text-xl'>Flor nutri</span>
         </Link>
         <ul

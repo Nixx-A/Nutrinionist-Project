@@ -8,7 +8,7 @@ export function PresentationContent() {
       <div className='hidden lg:flex lg:justify-center lg:flex-col lg:items-center  mr-32'>
         <img
           className='w-36 h-36 rounded-full object-cover '
-          src='../public/flor.jpg'
+          src='/flor.jpg'
           alt='flor foto'
         />
         <div className='flex flex-row mt-1'>
