@@ -100,7 +100,7 @@ export function ConsultaOnline() {
           </div>
         </div>
       </section>
-      <article className='w-screen bg-[#88d8cc] flex justify-center flex-col items-center pb-20'>
+      <article className='w-screen bg-[#88d8cc] flex justify-center flex-col items-center pb-20 mt-20'>
         <h2 className='text-center pt-8 pb-6 flex font-semibold text-2xl'>
           <AiFillQuestionCircle className='relative top-1' />
           Preguntas Frecuentes sobre las consultas onlines

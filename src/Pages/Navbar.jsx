@@ -55,11 +55,13 @@ export const Navbar = () => {
         <div
           onClick={() => setDarkTheme(!darkTheme)}
           className='cursor-pointer z-50'>
-          {darkTheme ? (
+          {darkTheme
+            ? (
             <BsSun className='m-1 h-5 w-8 ' />
-          ) : (
+              )
+            : (
             <BiMoon className='m-1 h-5 w-8 ' />
-          )}
+              )}
         </div>
       </nav>
       <div className=''>

@@ -1,7 +1,7 @@
 import './SobreMi.css'
 export function SobreMi() {
   return (
-    <section className='bg-[#f6f6f6]  text-black w-screen  items-center flex justify-center h-screen flex-col '>
+    <section className='bg-[#f6f6f6] lg:bg-slate-800  text-black w-screen  items-center flex justify-center h-screen flex-col '>
       <div className='bg-[#f88] absolute top-6 lg:h-4/6  md:relative md:flex md:flex-col md:justify-center md:items-center h-max w-5/6 m-6 p-4 shadow-xl '>
         <img
           className=' w-32 h-32 mx-auto rounded-full object-cover'
