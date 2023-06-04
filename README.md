@@ -2,4 +2,5 @@
 Webpage created for a nutritionist. 
 App tested with cypress
 
-![Macbook Pro-1685720524386](https://github.com/Nixx-A/Nutrinionist-Project/assets/71731922/815e7fc4-108f-4d87-985a-1a58e603a4a5)
+
+![iPad-1685922592123](https://github.com/Nixx-A/Nutrinionist-Project/assets/71731922/85003012-22e4-47f6-8baa-e061457b079c)
