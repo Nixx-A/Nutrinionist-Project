@@ -14,7 +14,7 @@ export function ConsultaOnline() {
 
   return (
     <>
-      <section className='flex justify-center relative md:bottom-44 lg:bottom-32 h-screen md:pt-0 items-center pt-12 flex-col'>
+      <section className='flex justify-center relative md:bottom-44 lg:bottom-10 h-screen md:pt-0 items-center pt-12 flex-col'>
         <div className='inline-flex flex-row text-[#f33] text-2xl'>
           <AiTwotoneCalendar className='mr-2 text-3xl relative' />
           <h2 className=''>Consulta Online</h2>
@@ -40,7 +40,7 @@ export function ConsultaOnline() {
             />
             <label htmlFor='Numero'>Número</label>
             {errors.Telefono && (
-              <p className='text-red-500'>{errors.Telefono?.message}</p>
+              <p data-aria-label='telefono-error' className='text-red-500'>{errors.Telefono?.message}</p>
             )}
             <input
               className='border-2 mb-2 placeholder:text-sm '
